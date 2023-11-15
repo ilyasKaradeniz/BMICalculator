@@ -71,6 +71,3 @@ button.grid(row=5, column=1, padx=50, pady=5)
 #---------Result Label------------
 result_label = Label(font=("Verdana", 12, "normal"))
 result_label.grid(row=6, column=1, padx=20, pady=20)
-
-
-window.mainloop()
