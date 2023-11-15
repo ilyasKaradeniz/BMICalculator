@@ -44,12 +44,12 @@ def entry_validation():
         check_bmi_category()
         result_label.config(text=f"BMI Değeriniz: {user_bmi} \n \n {bmi_category}")
 
-#---------Height Label------------
+#---------Height Label-------------
 enter_height_label = Label(text="Boyunuzu giriniz(cm): ", fg="#000000", font=FONT)
 enter_height_label.config()
 enter_height_label.grid(row=1, column=1, padx=50, pady=5)
 
-#---------Height Entry------------
+#---------Height Entry-------------
 body_height_entry = Entry(width=20)
 body_height_entry.grid(row=2, column=1, padx=50, pady=5)
 user_body_height = body_height_entry.get()
@@ -71,5 +71,6 @@ button.grid(row=5, column=1, padx=50, pady=5)
 #---------Result Label------------
 result_label = Label(font=("Verdana", 12, "normal"))
 result_label.grid(row=6, column=1, padx=20, pady=20)
+
 
 window.mainloop()
